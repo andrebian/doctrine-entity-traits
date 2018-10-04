@@ -11,6 +11,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "php": ">=7.1",
     "zendframework/zend-hydrator": "@stable",
     "doctrine/orm": "*"
   },

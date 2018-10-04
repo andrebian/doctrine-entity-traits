@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Andrebian\Doctrine\EntityTraits;
 
@@ -19,7 +19,7 @@ trait ActiveTrait
     /**
      * @return bool
      */
-    public function isActive()
+    public function isActive(): bool
     {
         return $this->active;
     }
@@ -28,7 +28,7 @@ trait ActiveTrait
      * @param bool $active
      * @return $this
      */
-    public function setActive($active)
+    public function setActive(bool $active)
     {
         $this->active = $active;
         return $this;

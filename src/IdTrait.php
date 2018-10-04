@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Andrebian\Doctrine\EntityTraits;
 
@@ -21,7 +21,7 @@ trait IdTrait
     /**
      * @return int
      */
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
@@ -30,7 +30,7 @@ trait IdTrait
      * @param $id
      * @return $this
      */
-    public function setId($id)
+    public function setId(int $id)
     {
         $this->id = $id;
         return $this;

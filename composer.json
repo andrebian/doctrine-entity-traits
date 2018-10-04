@@ -1,0 +1,22 @@
+{
+  "name": "andrebian/doctrine-entity-traits",
+  "description": "A set of basic traits for Doctrine Entities",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andre Cardoso",
+      "email": "andrecardosodev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "zendframework/zend-hydrator": "@stable",
+    "doctrine/orm": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Andrebian\\Doctrine\\EntityTraits\\": "src/"
+    }
+  }
+}

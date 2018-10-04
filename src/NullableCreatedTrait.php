@@ -13,7 +13,7 @@ trait NullableCreatedTrait
 {
     /**
      * @ORM\Column(type="datetime", nullable=true)
-     * @var DateTime
+     * @var DateTime|null
      */
     protected $created;
 

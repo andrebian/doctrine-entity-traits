@@ -6,10 +6,10 @@ use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait OptionalModifiedTrait
+ * Trait NullableModifiedTrait
  * @package Andrebian\Doctrine\EntityTraits
  */
-trait OptionalModifiedTrait
+trait NullableModifiedTrait
 {
     /**
      * @ORM\Column(type="datetime", nullable=true)

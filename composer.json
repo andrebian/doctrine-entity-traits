@@ -15,9 +15,17 @@
     "zendframework/zend-hydrator": "@stable",
     "doctrine/orm": "*"
   },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
   "autoload": {
     "psr-4": {
       "Andrebian\\Doctrine\\EntityTraits\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Andrebian\\Doctrine\\EntityTraits\\": "test/"
     }
   }
 }
